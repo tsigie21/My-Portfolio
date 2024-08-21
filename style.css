@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+body {
+    height: 100vh;
+}
+/* navbar section design */
+.navbar-container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(aqua,rgb(81, 81, 171));
+}
+.navbar-container nav img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px 40px;
+}
+.navbar-container nav div  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-container nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-container nav ul li {
+    margin-right: 70px;
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+.navbar-container nav ul li a {
+    color: rgba(255, 255, 255, 0.89);
+}
+.navbar-container nav ul li a:hover {
+    color: rgba(255, 255, 255, 0.701);
+}
+.navbar-container nav button {
+    border: none;
+    outline: 2px solid aquamarine;
+    background: transparent;
+    padding: 10px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: whitesmoke;
+    text-align: center;
+}
+.navbar-container nav button:hover {
+    outline: none;
+    transition: 0.5s;
+}
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
+.hero-container .left-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px auto;
+}
+.hero-container .left-hero h3 {
+    font-size: 2.5rem;
+    font-style: italic;
+}
+.hero-container .left-hero h2 {
+    font-size: 3rem;
+    margin-bottom: 40px auto;
+    font-weight: bolder;
+}
+.hero-container .left-hero h1 {
+    font-size: 3.2rem;
+    margin: 30px auto;
+}
+.hero-container .right-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.hero-container .right-hero img {
+    width: 700px;
+    height: 600px;
+}
+
+
